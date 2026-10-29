@@ -5,7 +5,7 @@
       "slug": "badgerden",
       "name": "Badgerden",
       "description": "App store for the badge. Installs and updates apps over Wi-Fi.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": "Gond-ul",
       "files": [
         {
@@ -15,8 +15,8 @@
         },
         {
           "path": "den_core.py",
-          "size": 11300,
-          "sha256": "1c75487fa47919dc3d1b47f857449fb4c5e27644af2b982cf7abec64365e6b74"
+          "size": 11404,
+          "sha256": "1bf1e9b57d2dc426aa92431a3cf9cc9a2686ec0c62e140b74a02cdf7b502fdd7"
         }
       ]
     },
