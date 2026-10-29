@@ -77,9 +77,9 @@ BADGERDEN_REPOS = ["Gond-ul/badgerden", "friend/their-badge-apps"]
 ```
 
 If two repos have the same slug, the first one listed wins. Only add repos you
-trust: an app can do anything on the badge. The checksums catch corrupt downloads, not
-tampering: like the stock apps, the badge doesn't verify TLS certificates, so
-use networks you trust too.
+trust: an app can do anything on the badge. The checksums catch corrupt or
+partial downloads, but they come from the same place as the files, so they
+don't prove who published them.
 
 ## First install
 
