@@ -1,0 +1,8 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.ruff_cache/
+# never publish badge credentials or pairing data
+secrets.py
+camera_config.json

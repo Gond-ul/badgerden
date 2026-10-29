@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "slug": "badgerden",
+      "name": "Badgerden",
+      "description": "App store for the badge. Installs and updates apps over Wi-Fi.",
+      "version": "1.0.0",
+      "author": "Gond-ul",
+      "files": [
+        {
+          "path": "__init__.py",
+          "size": 12327,
+          "sha256": "d8b48f6d12e2c65247bb8dd32c924e6603e7e2ff9029c3dc75f63bff8973aa47"
+        },
+        {
+          "path": "den_core.py",
+          "size": 11300,
+          "sha256": "1c75487fa47919dc3d1b47f857449fb4c5e27644af2b982cf7abec64365e6b74"
+        }
+      ]
+    },
+    {
+      "slug": "hello_den",
+      "name": "Hello Den",
+      "description": "A tiny starter app. Copy it to make your own.",
+      "version": "1.0.0",
+      "author": "Gond-ul",
+      "files": [
+        {
+          "path": "__init__.py",
+          "size": 1401,
+          "sha256": "34a70da84882f0352c868f1bde013e38bb700932fad1ecc7fab202c695d57fe5"
+        }
+      ]
+    }
+  ]
+}
