@@ -177,6 +177,7 @@ class Store:
         return None
 
     def fail(self, error):
+        print("badgerden:", repr(error))
         den_core.release()
         self.job = None
         self.state = FAILED
