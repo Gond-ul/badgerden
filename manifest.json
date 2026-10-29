@@ -21,6 +21,50 @@
       ]
     },
     {
+      "slug": "freefall",
+      "name": "Freefall",
+      "description": "Your GitHub profile in a box that knows which way is down.",
+      "version": "1.0.0",
+      "author": "Gond-ul",
+      "files": [
+        {
+          "path": "__init__.py",
+          "size": 19516,
+          "sha256": "a60d5e3c34872250d41145dfd7e438f2451b5e93b0e2cf3b55f251ebc0676af9"
+        },
+        {
+          "path": "icon.png",
+          "size": 393,
+          "sha256": "20244c6fffbcaeffd92cbcf0d2e39262727da2dd45329f0eef5620f76d1dbe19"
+        },
+        {
+          "path": "profile.py",
+          "size": 6300,
+          "sha256": "7e604bbe02bf45a159c9b847fb284d8b690e303b2475d1b627c3b2086e216c06"
+        },
+        {
+          "path": "sand.py",
+          "size": 10887,
+          "sha256": "4963f4408389a929abf9f6adbf9038b2f817677d681a80839d67be09e6ce5428"
+        },
+        {
+          "path": "sensors.py",
+          "size": 5872,
+          "sha256": "97be4ed872709bdb88ff7f674dabba47ac1b1984c06150a1f2db8f1e694fe3c4"
+        },
+        {
+          "path": "sprites.py",
+          "size": 5012,
+          "sha256": "13fdc974ebb842b3bb63db92f02a62cb0f11f6ba35f28ddd06dd477661450586"
+        },
+        {
+          "path": "world.py",
+          "size": 10421,
+          "sha256": "6ab531f9150fc45dd83d1241c48834d5370a6faaf4c55fd9263cb93d1a3b8d28"
+        }
+      ]
+    },
+    {
       "slug": "hello_den",
       "name": "Hello Den",
       "description": "A tiny starter app. Copy it to make your own.",
