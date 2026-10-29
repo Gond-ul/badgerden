@@ -61,6 +61,8 @@ that's built into the firmware and doesn't depend on anything on the disk.
    ```
 3. `git push`. The Action rebuilds `manifest.json` in about 30 seconds.
    You can also run `python3 tools/build_manifest.py` yourself and commit it.
+   Installing a just-changed app before then fails its checksum (nothing is
+   replaced); refresh after the Action finishes.
 
 Files that never go to the badge: `app.json`, `*.md`, `*.svg`, `screenshot*`,
 dotfiles and `__pycache__`, plus anything in `exclude`.
@@ -75,7 +77,9 @@ BADGERDEN_REPOS = ["Gond-ul/badgerden", "friend/their-badge-apps"]
 ```
 
 If two repos have the same slug, the first one listed wins. Only add repos you
-trust: an app can do anything on the badge.
+trust: an app can do anything on the badge. The checksums catch corrupt downloads, not
+tampering: like the stock apps, the badge doesn't verify TLS certificates, so
+use networks you trust too.
 
 ## First install
 

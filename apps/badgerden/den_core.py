@@ -15,6 +15,7 @@ installed app untouched.
 """
 
 import binascii
+import gc
 import hashlib
 import json
 import os
@@ -279,6 +280,8 @@ class Install:
             if self.index < len(self.app.files):
                 self.fetch(self.app.files[self.index])
                 self.index += 1
+                # each HTTPS request leaves a TLS context behind
+                gc.collect()
                 return False
             self.swap()
             return True
